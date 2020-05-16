@@ -12,7 +12,7 @@ end
 
 def long_planeteer_calls(array)
   
-  array.include?(array.length > 4)
+  array.include?(array.length < 4)
   
 end
 
