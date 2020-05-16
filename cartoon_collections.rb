@@ -13,7 +13,7 @@ end
 def long_planeteer_calls(array)
   
   four_or_more = true
-  if array.include? array.length < 4
+  if array.all? array.length < 4
     four_or_more = false
   else array.include? array.length > 4
     four_or_more = true
