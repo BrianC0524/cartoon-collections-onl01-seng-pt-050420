@@ -14,6 +14,8 @@ def long_planeteer_calls(array)
   
   four_or_more = true if array.include? array.length > 4
   
+  return four_or_more
+  
 end
 
 def find_the_cheese# code an argument here
