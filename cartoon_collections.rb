@@ -32,6 +32,4 @@ def find_the_cheese(array)
     
   end
   
-  present_cheese
-  
 end
