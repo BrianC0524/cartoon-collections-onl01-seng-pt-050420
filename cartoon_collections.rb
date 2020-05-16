@@ -12,14 +12,12 @@ end
 
 def long_planeteer_calls(array)
   
-  
   four = true
   four = true if array.any? {|word| word.length > 4}
     
   four = false if array.all? {|word| word.length <= 4}
   
   return four
-  
   
 end
 
