@@ -24,6 +24,8 @@ end
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   
-  array.collect {|cheese| return }
+  present_cheese = []
+  
+  array.collect {|cheese| cheese_types.inlcude?(cheese)}
   
 end
