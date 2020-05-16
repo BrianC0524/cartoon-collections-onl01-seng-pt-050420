@@ -28,6 +28,6 @@ def find_the_cheese(array)
   
   array.collect {|cheese| present_cheese << cheese_types.inlcude?(cheese)}
   
-  present_cheese
+  return present_cheese
   
 end
